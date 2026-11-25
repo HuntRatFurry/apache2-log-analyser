@@ -286,49 +286,10 @@ ou WAF.
 6.  Ajuste os limites de detecção ao tráfego legítimo da sua aplicação.
 7.  Faça backup dos logs e defina uma política de retenção.
 
-## Publicação no GitHub
+##Exemplo com Imagens do Retorno
 
-Antes de enviar o projeto, confira se arquivos de logs e relatórios
-reais não serão publicados. Uma sugestão de `.gitignore`:
+<img width="1200" height="600" alt="06_volume_ips" src="https://github.com/user-attachments/assets/9045ad9f-9fe9-419c-8808-83c54b95ad0d" />
 
-``` gitignore
-bin/
-venv/
-__pycache__/
-*.py[cod]
-.env
-resultados/
-resultados_seguranca/
-*.log
-*.log.*
-```
+<img width="1200" height="600" alt="01_suspeitas_tempo" src="https://github.com/user-attachments/assets/9cae0105-c8a3-4495-adf7-42caa2428d00" />
 
-Revise a lista de arquivos:
-
-``` bash
-git status
-```
-
-Adicione e envie os arquivos do projeto:
-
-``` bash
-git add README.md .gitignore *.py requirements.txt
-git commit -m "Adiciona analisador de logs Apache2"
-git push origin main
-```
-
-Ajuste os nomes dos arquivos e a branch conforme a estrutura do seu
-repositório.
-
-## Licença
-
-Defina uma licença antes de distribuir o projeto. Se ainda não houver
-uma, não presuma que terceiros têm autorização para reutilizar,
-modificar ou redistribuir o código.
-
-------------------------------------------------------------------------
-
-**Projeto:** Apache2 Log Analyzer\
-**Linguagem:** Python 3\
-**Finalidade:** análise de tráfego HTTP e triagem de indicadores de
-segurança em logs Apache2.
+<img width="1200" height="600" alt="04_suspeitas_dia" src="https://github.com/user-attachments/assets/acc60f39-c215-4dd1-a462-bc3589721cfa" />
